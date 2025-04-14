@@ -10,7 +10,7 @@ This is a simple but powerful React TODO List application that demonstrates a va
 - **Timestamps** – Each todo has `created` and `modified` timestamps.
 - **Tab Filters** – Switch between **All / Completed / Not Completed** tabs.
 - **Search Filter** – Filter todos by keyword using a search input.
-- ⏱**Debounced Search** – Filtering is debounced by 300ms for smoother UX.
+- **Debounced Search** – Filtering is debounced by 300ms for smoother UX.
 - **React Hooks** – Uses `useState` and `useEffect` extensively.
 - **Local Storage Integration** – Save all current todos to localStorage with one click.
 
