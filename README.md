@@ -1,4 +1,4 @@
-# React TODO List App 
+# React JS : TODO List WEB App 
 
 This is a simple but powerful React TODO List application that demonstrates a variety of useful React concepts including state management, controlled components, conditional rendering, list filtering, and local storage integration. Built using hooks useState and useEffect.
 
