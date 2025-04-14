@@ -22,11 +22,13 @@ This is a simple but powerful React TODO List application that demonstrates a va
 
 ## Components Overview
 
+- `TodoContainer` – All the main methods and resolutions are here.
 - `TodoAddSection` – Input and add new todos.
 - `TodoItem` – Handles each individual todo, edit/delete/mark done.
 - `TodoList` – Lists and filters todos, includes tab logic.
-- `SearchBar` – Filters todos by keyword (with debounce).
-- `SaveToLocalButton` – Saves the entire todos list to `localStorage`.
+- `TodoCountSection` – Counts number of completed tasks.
+- `TodoFilterSection` – Filters todos by keyword (with debounce).
+- `TodoSaveSection` – Saves the entire todos list to `localStorage`.
 
 ## Behavior Notes
 
@@ -34,6 +36,7 @@ This is a simple but powerful React TODO List application that demonstrates a va
 - The app ensures only one todo can be in **edit mode** at any time.
 - The filter/search is case-insensitive and applies on `value` field.
 - Local storage save stores all todo info, including created/modified times and completion status.
+- Filter input has a 300ms delay for throttling.
 
 ---
 
