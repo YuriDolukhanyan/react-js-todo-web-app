@@ -6,7 +6,7 @@ This is a simple but powerful React TODO List application that demonstrates a va
 
 - **CRUD Operations** – Create, read, update, and delete todos.
 - **Single Edit Mode** – Only one TODO can be edited at a time.
-- **Conditional Delete** – Todos can only be deleted when marked as completed.
+- **Conditional Delete** – Todos can only be deleted when marked as completed. Confirmation prompt on delete.
 - **Timestamps** – Each todo has `created` and `modified` timestamps.
 - **Tab Filters** – Switch between **All / Completed / Not Completed** tabs.
 - **Search Filter** – Filter todos by keyword using a search input.
