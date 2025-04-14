@@ -29,6 +29,7 @@ This is a simple but powerful React TODO List application that demonstrates a va
 - `TodoCountSection` – Counts number of completed tasks.
 - `TodoFilterSection` – Filters todos by keyword (with debounce).
 - `TodoSaveSection` – Saves the entire todos list to `localStorage`.
+- `StorageService` – Implementation of `getItem` & `setItem` for storing data in the `localStorage`.
 
 ## Behavior Notes
 
