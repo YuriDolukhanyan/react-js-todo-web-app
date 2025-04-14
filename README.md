@@ -39,6 +39,32 @@ This is a simple but powerful React TODO List application that demonstrates a va
 - Local storage save stores all todo info, including created/modified times and completion status.
 - Filter input has a 300ms delay for throttling.
 
+## Follow these steps to run the project locally:
+
+1. **Download or clone** this repository from GitHub:
+   ```bash
+   git clone https://github.com/your-username/react-js-todo-web-app.git
+   ```
+
+2. **Navigate into the project directory**:
+   ```bash
+   cd react-js-todo-web-app
+   ```
+
+3. **Install dependencies** using npm:
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and go to `http://localhost:5173` (or the port shown in your terminal).
+
+> Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+
 ---
 
 # React + Vite
