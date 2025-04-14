@@ -14,7 +14,7 @@ This is a simple but powerful React TODO List application that demonstrates a va
 - **React Hooks** – Uses `useState` and `useEffect` extensively.
 - **Local Storage Integration** – Save all current todos to localStorage with one click.
 
-## 🛠Technologies Used
+## Technologies Used
 
 - React (functional components)
 - JavaScript ES6+
